@@ -1,1 +1,1 @@
-This project explores more about classes and objects.
+Python more classes

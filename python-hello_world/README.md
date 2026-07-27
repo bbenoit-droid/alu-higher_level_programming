@@ -1,1 +1,1 @@
-my first intranet python project(Hello world).
+Hello World in python

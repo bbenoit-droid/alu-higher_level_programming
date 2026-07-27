@@ -1,7 +1,16 @@
 #!/usr/bin/python3
-"""Module that provides a function to check instance or inherited class."""
+"""A script that checks if the object is an instance of a class"""
 
 
 def is_kind_of_class(obj, a_class):
-    """Return True if obj is an instance of a_class or inherits from it."""
+    """checks if the object is an instance of a class
+
+    Args:
+       obj: object to check
+       a_class: class of the object
+
+    Returns:
+       True: if the object is an instance of, or if the obj is a class instance
+       False: if the obj isn't an instance of, or if the it is a class instance
+    """
     return isinstance(obj, a_class)

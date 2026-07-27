@@ -1,3 +1,0 @@
-#!/bin/bash
-echo 'print("C is fun!")' > test.py
-export PYFILE=test.py
